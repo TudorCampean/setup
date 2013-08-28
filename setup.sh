@@ -4,7 +4,7 @@
 
 # Install node from Package Manager
 
-sudo apt-get install python-software-properties python g++ make
+sudo apt-get install python-software-properties python g++ make build-essential python-dev
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
@@ -16,3 +16,4 @@ echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | 
 sudo apt-get update
 sudo apt-get install mongodb-10gen
 
+sudo easy_install pymongo
