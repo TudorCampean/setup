@@ -4,7 +4,7 @@
 
 # Install node from Package Manager
 
-sudo apt-get install python-software-properties python g++ make build-essential python-dev
+sudo apt-get install python-software-properties python g++ make build-essential python-dev python-setuptools
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
