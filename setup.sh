@@ -18,4 +18,19 @@ sudo apt-get install mongodb-10gen
 
 sudo easy_install pymongo
 
+#Install node modules used in development
 sudo npm i -g grunt-cli bower yo karma mocha
+
+#Install redis-server
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
+cd src
+sudo cp redis-server /usr/local/bin/
+sudo cp redis-cli /usr/local/bin/
+cd ../utils
+sudo ./install_server.sh
+cd ../../
+
+
