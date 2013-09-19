@@ -17,3 +17,5 @@ sudo apt-get update
 sudo apt-get install mongodb-10gen
 
 sudo easy_install pymongo
+
+sudo npm i -g grunt-cli bower yo karma mocha
